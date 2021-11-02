@@ -1,3 +1,8 @@
+/* 
+    Задание 5:
+    
+    Условную конструкцию из задания 4, перепишите с помощью Switch Case
+*/
 const randomNumber = Math.floor(Math.random() * 100);
 switch (true){
     case (randomNumber < 20):
