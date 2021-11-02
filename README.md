@@ -1,2 +1,1 @@
-# JavaScript-
-Практический онлайн-курс по основам JavaScript и jQuery от WayUp.
+[Part 1. Погружение в основы JavaScript.]()
