@@ -11,24 +11,31 @@
 
    итоговый текст должен быть собран из массива array и результат записать в переменную result
 */
-const array = [
-    'я в Симбирск,', //0
-    'в трактире.', //1
-    'с утра', //2
-    'В ту же ночь', //3
-    'Я остановился', //4
-    'для закупки',  //5
-    'что и было поручено Савельичу.', //6
-    'приехал', //7
-    'где должен был', //8
-    'нужных вещей,', //9
-    'отправился по лавкам', //10
-    'пробыть сутки', //11
-    'Савельич' //12
+const text = 'В ту же ночь приехал я в Симбирск, где должен был пробыть сутки для закупки нужных вещей, что и было поручено Савельичу. Я остановился в трактире. Савельич с утра отправился по лавкам';
+const separatedText = [
+    'я в Симбирск,',
+    'в трактире.',
+    'с утра',
+    'В ту же ночь',
+    'Я остановился',
+    'для закупки',
+    'что и было поручено Савельичу.',
+    'приехал',
+    'где должен был',
+    'нужных вещей,',
+    'отправился по лавкам',
+    'пробыть сутки',
+    'Савельич'
 ]
-const space = ' ';
-const result = array[3] + space + array[7] + array[0] + space + array[8] 
-                + space + array[11] + space + array[5] + space + array[9] 
-                + space + array[6] + space + array[4] + space + array[1] 
-                + space + array[12] + space + array[2] + space + array[10];
+let arrayLen = separatedText.length;
+let result = '';
+let from = 0;
+for (let i = 0; i < arrayLen;  i++) {
+    for (let j = 0; j < arrayLen; j++) {
+        if (text.indexOf(separatedText[j], from) == from) {
+            result += separatedText[j] + ' ';
+            from += separatedText[j].length + 1; 
+         }
+    }
+}
 console.log(result);
