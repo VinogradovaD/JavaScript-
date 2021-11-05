@@ -14,3 +14,4 @@ function fullName (firstName, lastName) {
     const fullName = `${firstName} ${lastName}`;
     console.log(fullName);
 }
+fullname('Darina','Vinogradova');
