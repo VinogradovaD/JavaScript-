@@ -40,7 +40,7 @@ for (let i = 0; i < arrayLen;  i++) {
 }
 console.log(result);
 
-//или проще
+//или проще и не выпендриваться
 
 let order = [3,7,0,8,11,5,9,6,4,1,12,2,10];
 let result = '';
