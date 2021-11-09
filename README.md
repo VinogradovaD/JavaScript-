@@ -3,4 +3,4 @@
 
 [Part 2. Погружение в основы JavaScript.](https://github.com/VinogradovaD/JavaScript_WayUp/tree/main/Lesson%202)
 
-[Взаимодействие JavaScript c DOM](https://github.com/VinogradovaD/JavaScript_WayUp/tree/main/Lesson%203)
+[Взаимодействие JavaScript c DOM](https://github.com/VinogradovaD/JavaScript_WayUp/tree/main/Lesson%203).
