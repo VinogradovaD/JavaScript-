@@ -14,7 +14,7 @@ const changeContentClass = dt => {
 };
 
 const changeTabClass = el => {
-    for (let i = 0; i < tabs.length; i++) {   //(1)
+    for (let i = 0; i < tabs.length; i++) {  
         tabs[i].classList.remove('active');
     }
     el.classList.add('active');
