@@ -7,4 +7,4 @@
 
 [Lesson 4.](https://github.com/VinogradovaD/JavaScript_WayUp/tree/main/Lesson%204) Практика: модальное окно, слайдер, табы.
 
-[Lesson 5.](https://github.com/VinogradovaD/JavaScript_WayUp/tree/main/Lesson%205) Практика: квиз на чистом JS.
+[Lesson 5.](https://github.com/VinogradovaD/JavaScript_WayUp/tree/main/Lesson%205) Практика: викторина.
